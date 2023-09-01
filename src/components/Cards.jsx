@@ -10,7 +10,7 @@ const Cards = () => {
   const {data,error,loading,inputSearch,inputFilter} = React.useContext(CountrieContex)
   React.useEffect(()=>{
     document.title = 'Countries of the world'
-    document.querySelector('#faviconFlag').setAttribute('href', 'src/img/favicon-32x32.png')
+    document.querySelector('#faviconFlag').setAttribute('href', '/public/favicon-32x32.png')
     
   },[])
   if(error) return <Error error={error} />
