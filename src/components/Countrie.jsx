@@ -16,7 +16,7 @@ const Countrie = () => {
     if(data && params.cod){
       const descPag = data.filter((item => item.cca3 === params.cod))
       document.title = descPag[0].name.common
-      document.querySelector('#faviconFlag').setAttribute('href',descPag[0].flags.svg ? descPag[0].flags.svg : 'src/img/favicon-32x32.png')
+      document.querySelector('#faviconFlag').setAttribute('href',descPag[0].flags.svg ? descPag[0].flags.svg : '/favicon-32x32.png')
     }
     
   },[data,params.cod])
