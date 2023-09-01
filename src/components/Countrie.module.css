@@ -1,0 +1,144 @@
+.seta{
+  padding: 12px 33px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: max-content;
+  margin: 60px 0;
+  color: var(--VeryDarkBlue-LightModeText);
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.29);
+  transition: .3s all;
+}
+
+.setaDark{
+  background: var(--DarkBlue-ModeElement);
+  color: var(--White-DarkModeText-LightModeElements);
+  transition: .3s all;
+}
+
+.seta:hover{
+  background: #f5f5f5;
+}
+.setaDark:hover{
+  background: #3c505f;
+}
+.seta svg{
+  transition: .3s all;
+  position: relative;
+}
+
+.seta:hover svg{
+  transform: translateX(-8px);
+}
+
+.flexCont{
+  display: flex;
+  gap: 100px;
+  color: var(--VeryDarkBlue-LightModeText);
+  transition: .3s all;
+}
+.flexContDark{
+  display: flex;
+  gap: 100px;
+  color: var(--White-DarkModeText-LightModeElements);
+  transition: .3s all;
+}
+
+.flex1{
+  flex: 1;
+}
+
+.img{
+  width: 100%;
+  object-fit: cover;
+  height: 100%
+}
+.contImg{
+  width: 560px;
+  height: 400px;
+}
+
+.mbh1{
+  margin-bottom: 20px;
+}
+
+.pdTop{
+  padding-top: 40px;
+}
+
+.flexList{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.list li{
+  font-weight: 600;
+  padding-bottom: 12px;
+}
+.list li span{
+  font-weight: normal;
+}
+
+.flexBorders{
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.borderP{
+  font-weight: 600;
+  padding-right: 10px;
+  white-space: nowrap;
+}
+
+.flexlistborde{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+}
+
+
+@media(max-width:1220px){
+  .flexList{
+    flex-direction: column;
+    gap: 0;
+  }
+  .flexBorders{
+    flex-direction: column;
+    gap: 10px;
+  }
+  .borderP{
+    padding-right: 0;
+  }
+}
+
+@media(max-width:1024px){
+  .flexCont,.flexContDark{
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .flexList{
+    flex-direction: row;
+  }
+  .contImg{
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+  }
+}
+
+@media(max-width:768px){
+  .img{
+    height: 230px;
+  }
+  .flexList{
+    flex-direction: column;
+    gap: 30px;
+  }
+}

@@ -1,0 +1,121 @@
+.input::placeholder{
+    color: inherit;
+    font-size: 0.875rem;
+}
+
+ul{
+    list-style: none;
+}
+
+.input{
+    position: relative;
+    border: none;
+    color: #848484;
+    font-size: 0.875rem;
+    background: #fff;
+    width: 480px;
+    padding: 18px 40px 18px 60px;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+    transition: .3s all;
+}
+.inputDark{
+    background: var(--DarkBlue-ModeElement);
+    color: var(--White-DarkModeText-LightModeElements);
+    transition: .3s all;
+}
+
+.relative{
+    position: relative;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 48px auto;
+}
+
+.select{
+    position: relative;
+    border: none;
+    width: 200px;
+    font-size: 0.875rem;
+    background: #fff;
+    outline: none;
+    color: #111517;
+    border-radius: 5px;
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+    padding: 18px;
+     transition: .3s all;
+}
+
+.selectDark{
+    background: var(--DarkBlue-ModeElement);
+    color: var(--White-DarkModeText-LightModeElements);
+     transition: .3s all;
+}
+
+.select svg{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    cursor: pointer;
+}
+
+.relative svg{
+    position: absolute;
+    z-index: 99;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.list{
+    position: absolute;
+    z-index: 999;
+    margin-top: 6px;
+    background: #fff;
+    padding: 20px 16px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+}
+.listDark{
+    background: var(--DarkBlue-ModeElement);
+    color: var(--White-DarkModeText-LightModeElements);
+}
+.listNone{
+    display: none;
+}
+
+.list ul li{
+    font-size: 0.875rem;
+    color: inherit;
+    cursor: pointer;
+    padding: 5px 0;
+    margin-top: 5px;
+    transition: .3s;
+}
+
+.list ul li:hover{
+    color: black;
+    font-weight: 600;
+}
+.listDark ul li:hover{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+.list ul li:first-child,.listDark ul li:first-child{
+    margin-top: 0;
+}
+
+@media(max-width:767px){
+    .flex{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .input{
+        width: 100%;
+    }
+}

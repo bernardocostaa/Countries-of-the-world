@@ -1,0 +1,40 @@
+.logo{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: inherit;
+}
+.mode{
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: inherit;
+}
+.bgColor{
+    background-color: var(--White-DarkModeText-LightModeElements);
+    color: var(--VeryDarkBlue-LightModeText);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+    transition: .3s all;
+}
+.bgColorDark{
+    background-color: var(--DarkBlue-ModeElement);
+    color: var( --White-DarkModeText-LightModeElements);
+    transition: .3s all;
+}
+
+.modeCont {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.flexNav{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0 ;
+}
+
+@media(max-width:768px){
+    .logo{
+        font-size: 0.875rem;
+    }
+}

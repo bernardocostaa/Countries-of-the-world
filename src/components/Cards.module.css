@@ -1,0 +1,34 @@
+.gridCards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,330px);
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.filter,.merda{
+    background: red;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1430px){
+    .gridCards {
+        grid-template-columns: repeat(auto-fill,265px);
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 1023px){
+    .gridCards {
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+@media (max-width: 767px){
+    .gridCards {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

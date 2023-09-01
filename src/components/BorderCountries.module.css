@@ -1,0 +1,26 @@
+.link{
+  color: var( --VeryDarkBlue-LightModeText);
+  background: #fff;
+  display: flex;
+  max-width: max-content;
+  gap: 10px;
+  font-size: 0.875rem;
+  padding: 6px 24px;
+  border-radius: 2px;
+  border: 0px solid #979797;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.10);
+  transition: .3 all;
+}
+.link:hover{
+  background: #dbdbdb;
+}
+
+.linkDark:hover{
+  background: #3c505f;
+}
+
+.linkDark{
+  transition: .3 all; 
+  background: var( --DarkBlue-ModeElement);
+  color: var(--White-DarkModeText-LightModeElements);
+}

@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: var(--fontNunito);
+}
+
+.App{
+    background: var(--VeryLightGray-LightModeBackground);
+    transition: .3s all;
+    min-height: 100vh;
+}
+.AppDark{
+    background: var(--VeryDarkBlue-ModeDarkBackground);
+    transition: .3s all;
+    min-height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+:root{
+    --DarkBlue-ModeElement: #2b3945;
+    --VeryDarkBlue-ModeDarkBackground: #202c37;
+    --VeryDarkBlue-LightModeText:#111517;
+    --DarkGray-LightModeInput:#858585;
+    --VeryLightGray-LightModeBackground:#fafafa;
+    --White-DarkModeText-LightModeElements:#ffffff;
+    --fontNunito:'Nunito Sans', sans-serif;
+}
+
+
+.container{
+    max-width: 1440px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.animeLeft{
+    opacity: 0;
+    transform: translateX(-40px);
+    animation: animeLeft .6s forwards;
+  }
+  
+
+@keyframes animeLeft{
+    to{
+      opacity: 1;
+      transform: initial;
+    }
+  }

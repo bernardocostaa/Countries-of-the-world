@@ -1,0 +1,57 @@
+
+.skeleton {
+  width: 270px;
+  height: 330px;
+  background-image: linear-gradient(90deg, #cac9c9 0px, #fff 50%, #cac9c9 100%);
+  background-color: #cac9c9;
+  background-size: 200%;
+  animation: skeleton 1.5s infinite linear;
+}
+
+.skeleton2 {
+  width: 560px;
+  height: 400px;
+  background-image: linear-gradient(90deg, #cac9c9 0px, #fff 50%, #cac9c9 100%);
+  background-color: #cac9c9;
+  background-size: 200%;
+  animation: skeleton 1.5s infinite linear;
+}
+
+.skeletonDark{
+  width: 270px;
+  height: 330px;
+  background-image: linear-gradient(90deg, #2B3945 0px, #4b5961 50%, #2B3945 100%);
+  background-color: #2B3945;
+  background-size: 200%;
+  animation: skeleton 1.5s infinite linear;
+}
+
+.skeletonDark2{
+  width: 560px;
+  height: 400px;
+  background-image: linear-gradient(90deg, #2B3945 0px, #4b5961 50%, #2B3945 100%);
+  background-color: #2B3945;
+  background-size: 200%;
+  animation: skeleton 1.5s infinite linear;
+}
+
+@media(max-width:767px){
+ .skeletonDark2{
+    width: 100%;
+    height: 280px;
+    background-image: linear-gradient(90deg, #2B3945 0px, #4b5961 50%, #2B3945 100%);
+    background-color: #2B3945;
+    background-size: 200%;
+    animation: skeleton 1.5s infinite linear;
+  }
+}
+
+
+@keyframes skeleton {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -200%;
+  }
+}
