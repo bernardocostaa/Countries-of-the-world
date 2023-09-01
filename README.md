@@ -1,14 +1,14 @@
 <h1 align="center">
-  Dogs
+  Countries of the World
 </h1>
 
 <p align="center">
-  <img alt="" src="https://github.com/bernardocostaa/Dogs/blob/main/templete.jpg" width="100%">
+  <img alt="" src="https://github.com/bernardocostaa/Countries-of-the-world/blob/main/templete.jpg" width="100%">
 </p>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://dogshs.netlify.app/">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://bernardocostaa-rest-countries.netlify.app/">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 <br>
@@ -18,7 +18,7 @@
 Executar para clonar o projeto:
 
 ```bash
-git clone https://github.com/bernardocostaa/Dogs.git
+git clone https://github.com/bernardocostaa/Countries-of-the-world.git
 ```
 
 Executar para instalar as dependências necessárias:
@@ -42,15 +42,17 @@ npm run build
 Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
 - React
+- HTML
+- CSS
 
 ## 🚧 Projeto:
 
-Link do Projeto: [Dogs](https://dogshs.netlify.app/)
+Link do Projeto: [Dogs](https://bernardocostaa-rest-countries.netlify.app/)
 
 
 ## :memo: Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/bernardocostaa/Dogs/blob/main/LICENSE) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/bernardocostaa/Countries-of-the-world/blob/main/LICENSE) para mais detalhes.
 
 ---
 
