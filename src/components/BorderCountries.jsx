@@ -7,6 +7,7 @@ import { ThemaContex } from '../ThemaContex';
 const BorderCountries = ({border}) => {
   const {data} = React.useContext(CountrieContex)
   const { thema } = React.useContext(ThemaContex);
+  console.log(data);
 
 
   return (

@@ -38,12 +38,15 @@
   gap: 100px;
   color: var(--VeryDarkBlue-LightModeText);
   transition: .3s all;
+  padding-bottom: 40px;
 }
+
 .flexContDark{
   display: flex;
   gap: 100px;
   color: var(--White-DarkModeText-LightModeElements);
   transition: .3s all;
+  padding-bottom: 40px;
 }
 
 .flex1{
@@ -99,7 +102,6 @@
   align-items: center;
   gap: 10px;
   flex-wrap: wrap;
-  padding-bottom: 40px;
 }
 
 
