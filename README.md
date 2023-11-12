@@ -21,7 +21,7 @@ Executar para clonar o projeto:
 git clone https://github.com/bernardocostaa/Countries-of-the-world.git
 ```
 
-Executar para instalar as dependências necessárias:
+Entrar na pasta usando cd e executar para instalar as dependências necessárias:
 
 ```bash
 npm install
