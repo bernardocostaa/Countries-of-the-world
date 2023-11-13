@@ -47,7 +47,7 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
 ## 🚧 Projeto:
 
-Link do Projeto: [Dogs](https://bernardocostaa-rest-countries.netlify.app/)
+Link do Projeto: [Countries of the World](https://bernardocostaa-rest-countries.netlify.app/)
 
 
 ## :memo: Licença
